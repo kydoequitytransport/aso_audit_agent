@@ -1,0 +1,31 @@
+{
+  "name": "aso_audit_agent",
+  "version": "1.0.0",
+  "description": "Mastra-based ASO audit chat agent for Apple App Store listings",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "start": "mastra start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^3.0.79",
+    "@mastra/core": "^1.36.0",
+    "@mastra/libsql": "^1.11.1",
+    "@mastra/memory": "^1.19.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "mastra": "^1.10.0",
+    "typescript": "^6.0.3"
+  }
+}
